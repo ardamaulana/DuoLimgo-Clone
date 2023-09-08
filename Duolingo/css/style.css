@@ -1,0 +1,254 @@
+/* CSS styling for your Duolingo clone */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.lesson, .practice {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: lightcoral;
+    text-align: center;
+    padding: 10px;
+}
+
+/* CSS untuk header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: lightcoral;
+    color: #fff;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.user-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.user-info span {
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.user-info a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.user-info a:hover {
+    color: black;
+}
+
+/* Lesson Content */
+.lesson-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.lesson-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lesson-card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.lesson-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.lesson-card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.start-lesson-button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.start-lesson-button:hover {
+    background-color: green;
+}
+
+/* Practice Content */
+.practice-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.practice-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.practice-card:hover {
+    transform: translateY(-5px);
+}
+
+.practice-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.practice-details {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.practice-details h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.practice-details p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.start-practice-button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.start-practice-button:hover {
+    background-color: green;
+}
+
+/* Footer */
+.footer-content {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.footer-logo h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: black;
+}
+
+.footer-links a:hover {
+    color: black;
+}

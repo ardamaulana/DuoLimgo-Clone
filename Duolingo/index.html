@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Duolingo Clone</title>
+</head>
+<body>
+    <header>
+        <!-- Header content -->
+        <div class="logo">
+            <img src="asset/Logo Duolingo.png" alt="Duolingo Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Kursus</a></li>
+                <li><a href="#">Aktivitas</a></li>
+                <li><a href="#">Tentang</a></li>
+            </ul>
+        </nav>
+
+        <div class="user-info">
+            <img src="asset/FOTO ARDA.jpg" alt="Foto Profil">
+            <span>Arda Maulana</span>
+            <a href="#">Keluar</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="lesson">
+            <!-- Lesson content -->
+            <section class="lesson-content">
+                <h2>Lesson Content</h2>
+                <div class="lesson-card">
+                    <img src="asset/Lesson 1.png" alt="Lesson 1">
+                    <h3>Lesson 1</h3>
+                    <p>Ini adalah deskripsi singkat dari pelajaran <br> 
+                        1. Pelajari kata-kata dan frasa dasar dalam bahasa yang Anda pelajari.</p>
+                    <a href="#" class="start-lesson-button">Mulai Pelajaran</a>
+                </div>
+
+                <div class="lesson-card">
+                    <img src="asset/Lesson 2.png" alt="Lesson 2">
+                    <h3>Lesson 2</h3>
+                    <p>Deskripsi singkat dari pelajaran <br> 
+                        2. Lanjutkan untuk memperdalam pemahaman Anda tentang bahasa.</p>
+                    <a href="#" class="start-lesson-button">Mulai Pelajaran</a>
+                </div>
+                <!-- Tambahkan lebih banyak lesson cards sesuai kebutuhan -->
+        </section>
+
+        </section>
+        <section class="practice">
+            <!-- Practice content -->
+            <section class="practice-content">
+                <h2>Practice Content</h2>
+                <div class="practice-card">
+                    <h3>Practice 1</h3>
+                    <p>Practice your language skills with exercises and quizzes related to Lesson 1.</p>
+                    <a href="#" class="start-practice-button">Start Practice</a>
+                </div>
+                <div class="practice-card">
+                    <h3>Practice 2</h3>
+                    <p>Challenge yourself with advanced exercises and test your knowledge.</p>
+                    <a href="#" class="start-practice-button">Start Practice</a>
+                </div>
+                <div class="practice-card">
+                    <h3>Practice 3</h3>
+                    <p>Practice your language skills with exercises and quizzes related to Lesson 1.</p>
+                    <a href="#" class="start-practice-button">Start Practice</a>
+                </div>
+                <div class="practice-card">
+                    <h3>Practice 4</h3>
+                    <p>Challenge yourself with advanced exercises and test your knowledge.</p>
+                    <a href="#" class="start-practice-button">Start Practice</a>
+                </div>
+                <div class="practice-card">
+                    <h3>Practice 5</h3>
+                    <p>Challenge yourself with advanced exercises and test your knowledge.</p>
+                    <a href="#" class="start-practice-button">Start Practice</a>
+                </div>
+                <div class="practice-card">
+                    <h3>Practice 6</h3>
+                    <p>Challenge yourself with advanced exercises and test your knowledge.</p>
+                    <a href="#" class="start-practice-button">Start Practice</a>
+                </div>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer content -->
+        <footer class="footer-content">
+            <div class="footer-logo">
+                <img src="asset/Logo Duolingo.png" alt="Logo">
+                <h4>Duolingo</h4>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Kontak</a></li>
+                    <li><a href="#">Privasi</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-year">
+                &copy; <span id="currentYear"></span> Duolingo
+            </div>
+        </footer>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        // Bagian JavaScript
+        const currentYear = new Date().getFullYear();
+        document.getElementById("currentYear").textContent = currentYear;
+    </script>
+</body>
+</html>
